@@ -11,6 +11,10 @@
 		8BFC2FF626A80D480033DD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC2FF526A80D480033DD97 /* ViewController.swift */; };
 		8BFC2FFB26A80D490033DD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC2FFA26A80D490033DD97 /* Assets.xcassets */; };
 		8BFC2FFE26A80D490033DD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC2FFC26A80D490033DD97 /* LaunchScreen.storyboard */; };
+		8BFC301326A82AAE0033DD97 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC300F26A82AAE0033DD97 /* Mark.swift */; };
+		8BFC301426A82AAE0033DD97 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC301026A82AAE0033DD97 /* Dot.swift */; };
+		8BFC301526A82AAE0033DD97 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC301126A82AAE0033DD97 /* Stroke.swift */; };
+		8BFC301626A82AAE0033DD97 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC301226A82AAE0033DD97 /* Vertex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		8BFC2FFA26A80D490033DD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BFC2FFD26A80D490033DD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BFC2FFF26A80D490033DD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFC300F26A82AAE0033DD97 /* Mark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		8BFC301026A82AAE0033DD97 /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		8BFC301126A82AAE0033DD97 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		8BFC301226A82AAE0033DD97 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		8BFC2FF026A80D480033DD97 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
+				8BFC300E26A82AAE0033DD97 /* Mark */,
 				8BFC2FF126A80D480033DD97 /* AppDelegate.swift */,
 				8BFC2FF526A80D480033DD97 /* ViewController.swift */,
 				8BFC2FFA26A80D490033DD97 /* Assets.xcassets */,
@@ -59,6 +68,17 @@
 				8BFC2FFF26A80D490033DD97 /* Info.plist */,
 			);
 			path = TouchPainter;
+			sourceTree = "<group>";
+		};
+		8BFC300E26A82AAE0033DD97 /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				8BFC300F26A82AAE0033DD97 /* Mark.swift */,
+				8BFC301026A82AAE0033DD97 /* Dot.swift */,
+				8BFC301126A82AAE0033DD97 /* Stroke.swift */,
+				8BFC301226A82AAE0033DD97 /* Vertex.swift */,
+			);
+			path = Mark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +152,10 @@
 			files = (
 				8BFC2FF626A80D480033DD97 /* ViewController.swift in Sources */,
 				8BFC2FF226A80D480033DD97 /* AppDelegate.swift in Sources */,
+				8BFC301526A82AAE0033DD97 /* Stroke.swift in Sources */,
+				8BFC301326A82AAE0033DD97 /* Mark.swift in Sources */,
+				8BFC301426A82AAE0033DD97 /* Dot.swift in Sources */,
+				8BFC301626A82AAE0033DD97 /* Vertex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
