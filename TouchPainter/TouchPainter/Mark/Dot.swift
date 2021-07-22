@@ -8,7 +8,7 @@
 import UIKit
 
 class Dot: Vertex {
-    func drawWithContext(context: CGContext) {
+    override func drawWithContext(context: CGContext) {
         let x = location.x
         let y = location.y
         let frame = CGRect(x: x, y: y, width: x - size / 2.0, height: y - size / 2.0)

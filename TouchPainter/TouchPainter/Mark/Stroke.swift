@@ -8,6 +8,9 @@
 import UIKit
 
 class Stroke: Mark {
+    var color: UIColor = .black
+    var size: CGFloat = 0.0
+    var location: CGPoint = .zero
     
     var children: [Mark]?
     
